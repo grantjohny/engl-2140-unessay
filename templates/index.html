@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../static/css/index.css">
+</head>
+<body>
+	<nav class="navbar">
+		<ul class="links">
+			<a href={{url_for('index')}}>Home</a>
+			<a href={{url_for('about')}}>About/Works Cited</a>
+		</ul>
+	</nav>
+	<h1 class="welcome">Unessay</h1>
+	<div class="intro">
+	<h4 class="intro">
+		Throughout the semester in Dr. Ashton's course on American Literature, we have read numerous pieces of text spanning from the arrrival of Christopher Columbus in the 1400's to
+		the early 1900's. You can divide most of these pieces into different categroies based on the author's and the subject matter of their work. The two groups that 
+		I found the most interesting were the early Puritans and former African American slaves. I feel that although they lived apporximately 200 years apart in argueably 
+		different countries, they share many themes and ideas in their work and actions that have impacted not just American literature, but the American media as a whole to this day.
+	</h4>
+	</div>
+	<h5 class="intro">
+		Click on the pictures below to explore the history of Puritan and African American authors in America
+	</h5>
+	<div class="wrapper">
+		<a href={{url_for('pauthors')}}>
+			<div class="puritan">
+				<h2 class="puritan">Puritan authors</h2>
+				<img class="puritan" src="../static/assets/MaryRowlandson.jpg">
+			</div>
+		</a>
+		<a href={{url_for('aaauthors')}}>
+			<div class="slave">
+				<h2 class="slave">African American authors</h2>
+				<img class="slave" src="../static/assets/Wheatley.jpg">
+			</div>
+		</a>
+	</div>
+	</body>
+</html>
