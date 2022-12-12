@@ -1,1 +1,1 @@
-web: gunicorn app:unessay
+web: gunicorn --bind 0.0.0.0:$PORT unessay:app
