@@ -58,8 +58,26 @@ div.wrapper {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	column-gap: 10px;
+	margin-top: 200px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 100px;
+}
+div.comparison {
+	margin: auto;
+	border-radius: 30px;
+	width: 1200px;
+	height: 200px;	
+	background: color url('path');
+	-webkit-box-shadow: 0px 2px 17px 11px rgba(0,0,0,0.32); 
+	box-shadow: 0px 2px 17px 11px rgba(0,0,0,0.32);
+}
+h2.comparison {
+	text-align: center;
+	font-size: 48px;
+	font-family: "Helvetica Neue", "Arial", sans-serif;
+	font-weight: 300;
+	color: darkslategrey;
 }
 div.puritan {
 	margin: auto;
@@ -103,5 +121,5 @@ h2.slave{
 	font-size: 48px;
 	font-family: "Helvetica Neue", "Arial", sans-serif;
 	font-weight: 300;
-	color: antiquewhite;
+	color: darkslategrey;
 }

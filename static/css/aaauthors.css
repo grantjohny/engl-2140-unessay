@@ -28,6 +28,19 @@ h3.title {
         font-weight: 175;
         color: antiquewhite;     
 }
+h1.title {
+        text-align: center;
+        font-size: 48px;
+        font-family: "Helvetica Neue", "Arial", sans-serif;
+        font-weight: 300;
+        color: darkslategrey;
+}
+li.subt {
+        font-size: 30px;
+        font-family: "Helvetica Neue", "Arial", sans-serif;
+        font-weight: 175;
+        color: antiquewhite;   
+}
 div.wrapper {
         display: flex;
 }
@@ -42,12 +55,14 @@ div.img {
         width: 300px;
         border: 1px solid black;
 }
-h5.para {
-        font-size: 30px;
-        text-align: center;
+p.para {
+        font-size: 18px;
+        text-align: left;
         font-family: "Helvetica Neue", "Arial", sans-serif;
         font-weight: 175;
         color: antiquewhite; 
+        margin-left: 5%;
+        margin-right: 5%;
 }
 h5.works {
         font-size: 30px;
@@ -60,6 +75,7 @@ div.img-crop{
         width: 275px;
         height: 300px;
         overflow: hidden;
+        margin: auto;
 }
 h6.caption {
         text-align: left;

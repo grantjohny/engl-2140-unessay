@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>title</title>
 	<link rel="stylesheet" href="../static/css/index.css">
 </head>
 <body>
@@ -19,25 +19,28 @@
 		Throughout the semester in Dr. Ashton's course on American Literature, we have read numerous pieces of text spanning from the arrrival of Christopher Columbus in the 1400's to
 		the early 1900's. You can divide most of these pieces into different categroies based on the author's and the subject matter of their work. The two groups that 
 		I found the most interesting were the early Puritans and former African American slaves. I feel that although they lived apporximately 200 years apart in argueably 
-		different countries, they share many themes and ideas in their work and actions that have impacted not just American literature, but the American media as a whole to this day.
+		different countries, they share many themes and ideas in their work and actions that have impacted not just American literature, but the American media as a whole to this day. I see this connection most through Mary Rowlandson, a Puritan settler, and Phillis Wheatley, a former African American slave as their works both revolove around captivity, and use specific themes and strategies to encourage readers to feel empathy for them, and others like them. Click on a topic below to explore the history, works, and connection between Puritan and African American authors in early American history.
 	</h4>
 	</div>
-	<h5 class="intro">
-		Click on the pictures below to explore the history of Puritan and African American authors in America
-	</h5>
 	<div class="wrapper">
 		<a href={{url_for('pauthors')}}>
 			<div class="puritan">
-				<h2 class="puritan">Puritan authors</h2>
+				<h2 class="puritan">Puritan Authors</h2>
 				<img class="puritan" src="../static/assets/MaryRowlandson.jpg">
 			</div>
 		</a>
 		<a href={{url_for('aaauthors')}}>
 			<div class="slave">
-				<h2 class="slave">African American authors</h2>
+				<h2 class="slave">African American Authors</h2>
 				<img class="slave" src="../static/assets/Wheatley.jpg">
 			</div>
 		</a>
 	</div>
+	<a href={{url_for('comparison')}}>
+		<div class="comparison">
+			<br>
+			<h2 class="comparison">How They Compare</h2>
+		</div>
+	</a>
 	</body>
 </html>
