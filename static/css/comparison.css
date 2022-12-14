@@ -37,7 +37,7 @@ div.works {
 }
 div.para {
         width: 900px;
-        border: 1px solid black;
+        
         margin: auto;
 }
 div.img {
@@ -58,6 +58,7 @@ li.subt {
         color: antiquewhite;   
 }
 p.para {
+        line-height: 26px;
         font-size: 18px;
         text-align: left;
         font-family: "Helvetica Neue", "Arial", sans-serif;

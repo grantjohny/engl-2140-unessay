@@ -31,6 +31,9 @@ h3.title {
 div.wrapper {
         display: flex;
 }
+img{
+        padding: 20px;
+}
 div.works {
         width: 300px;
         border: 1px solid black;}
@@ -56,6 +59,7 @@ li.subt {
         color: antiquewhite;   
 }
 p.para {
+        line-height: 26px;
         font-size: 18px;
         text-align: left;
         font-family: "Helvetica Neue", "Arial", sans-serif;
@@ -75,11 +79,11 @@ div.img-crop{
         width: 275px;
         height: 300px;
         overflow: hidden;
-        marign-left: auto;
+        margin-left: auto;
         margin-right: auto;
 }
 h6.caption {
-        text-align: left;
+        text-align: center;
         font-family: "Helvetica Neue", "Arial", sans-serif;
         font-weight: 175;
         color: antiquewhite; 

@@ -55,7 +55,14 @@ div.img {
         width: 300px;
         border: 1px solid black;
 }
+li.subt {
+        font-size: 30px;
+        font-family: "Helvetica Neue", "Arial", sans-serif;
+        font-weight: 175;
+        color: antiquewhite;   
+}
 p.para {
+        line-height: 26px;
         font-size: 18px;
         text-align: left;
         font-family: "Helvetica Neue", "Arial", sans-serif;
@@ -78,7 +85,7 @@ div.img-crop{
         margin: auto;
 }
 h6.caption {
-        text-align: left;
+        text-align: center;
         font-family: "Helvetica Neue", "Arial", sans-serif;
         font-weight: 175;
         color: antiquewhite; 
