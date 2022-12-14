@@ -1,19 +1,25 @@
 body {
-        background: #353535;
+        background: #EFEFEF;
 }
 a {
         text-decoration:none;
 }
 ul.links {
-        background: #D3D3D3;
+        background: #CAEBF2;
         text-align: center;
 }
 ul.links > a {
         display: inline-block;
         font-size: 18px;
         color: black;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        font-family: "Helvetica Neue", "Arial", sans-serif;
+        font-weight: 175;
+        color: #0000FF; 
 }
 ul.links > li.home{
         text-decoration: none;
@@ -26,14 +32,14 @@ h3.title {
         text-align: center;
         font-family: "Helvetica Neue", "Arial", sans-serif;
         font-weight: 175;
-        color: antiquewhite;     
+        color: #FF3B3F;   
 }
 h1.title {
         text-align: center;
         font-size: 48px;
         font-family: "Helvetica Neue", "Arial", sans-serif;
         font-weight: 300;
-        color: darkslategrey;
+        color: #FF3B3F;
 }
 li.subt {
         font-size: 30px;
@@ -46,7 +52,9 @@ div.wrapper {
 }
 div.works {
         width: 300px;
-        border: 1px solid black;}
+        border: 1px solid black;
+        background: #CAEBF2;
+}
 div.para {
         width: 900px;
         border: 1px solid black;
@@ -54,20 +62,21 @@ div.para {
 div.img {
         width: 300px;
         border: 1px solid black;
+        background: #CAEBF2;
 }
 li.subt {
         font-size: 30px;
         font-family: "Helvetica Neue", "Arial", sans-serif;
         font-weight: 175;
-        color: antiquewhite;   
+        color: #000000;  
 }
 p.para {
         line-height: 26px;
         font-size: 18px;
         text-align: left;
         font-family: "Helvetica Neue", "Arial", sans-serif;
-        font-weight: 175;
-        color: antiquewhite; 
+        font-weight: 300;
+        color: #808080;
         margin-left: 5%;
         margin-right: 5%;
 }
@@ -75,7 +84,7 @@ h5.works {
         font-size: 30px;
         text-align: left;
         font-family: "Helvetica Neue", "Arial", sans-serif;
-        font-weight: 175;
+        font-weight: 300;
         color: antiquewhite; 
 }
 div.img-crop{
@@ -87,7 +96,7 @@ div.img-crop{
 h6.caption {
         text-align: center;
         font-family: "Helvetica Neue", "Arial", sans-serif;
-        font-weight: 175;
-        color: antiquewhite; 
+        font-weight: 225;
+        color: #808080;
 }
 

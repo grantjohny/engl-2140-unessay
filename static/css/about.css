@@ -25,7 +25,7 @@ ul.links > li.home{
         text-decoration: none;
         display: inline-block;
         font-size: 56px;
-        margin-right: 2000px;
+        margin-right: 1800px;
 }
 h3.title {
         font-size: 80px;
@@ -71,12 +71,22 @@ li.subt {
 p.para {
         line-height: 26px;
         font-size: 18px;
-        text-align: left;
+        text-align: center;
         font-family: "Helvetica Neue", "Arial", sans-serif;
         font-weight: 300;
         color: #808080;
         margin-left: 5%;
         margin-right: 5%;
+}
+p.biblio {
+        line-height: 26px;
+        font-size: 18px;
+        text-align: left;
+        font-family: "Helvetica Neue", "Arial", sans-serif;
+        font-weight: 300;
+        color: #808080;
+        margin-left: 200px;
+        margin-right: 200px;
 }
 h5.works {
         font-size: 30px;

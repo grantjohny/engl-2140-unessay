@@ -1,5 +1,5 @@
 body {
-	background: #353535;
+	background: #EFEFEF;
 }
 a {
  	text-decoration:none;
@@ -8,43 +8,48 @@ nav.navbar {
 	width: 100%;
 }
 ul.links {
-	background: whitesmoke;
+	background: #CAEBF2;
 	text-align: center;
 	width: 100%;
 }
 ul.links > a {
 	display: inline-block;
-	font-size: 18px;
-	color: black;
-	padding-left: 15px;
-	padding-right: 15px;
+        font-size: 18px;
+        color: black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        font-family: "Helvetica Neue", "Arial", sans-serif;
+        font-weight: 175;
+        color: #0000FF; 
 }
 ul.links > li.home{
 	display: inline-block;
 	font-size: 56px;
 	margin-right: 2000px;
 }
-h1.welcome {
-	margin-bottom: 80px;
-	height: 50px;
-	text-align: center;
-	font-size: 48px;
-	font-family: "Helvetica Neue", "Arial", sans-serif;
-	font-weight: 175;
-	color: antiquewhite;
-}
+
 div.intro{
 	width: 1200px;
 	height: 300px;
 	margin: auto;
 }
-h4.intro {
+h1.title {
+        font-size: 80px;
+        text-align: center;
+        font-family: "Helvetica Neue", "Arial", sans-serif;
+        font-weight: 175;
+        color: #FF3B3F;  
+}
+h3.intro {
 	height: 50px;
 	text-align: left;
 	font-size: 30px;
 	font-family: "Helvetica Neue", "Arial", sans-serif;
-	font-weight: 175;
-	color: antiquewhite;
+	font-weight: 300;
+	color: #808080;
 }
 h5.intro{
 	height: 50px;
@@ -77,7 +82,7 @@ h2.comparison {
 	font-size: 48px;
 	font-family: "Helvetica Neue", "Arial", sans-serif;
 	font-weight: 300;
-	color: darkslategrey;
+	color: #FF3B3F;
 }
 div.puritan {
 	margin: auto;
@@ -99,7 +104,7 @@ h2.puritan {
 	font-size: 48px;
 	font-family: "Helvetica Neue", "Arial", sans-serif;
 	font-weight: 300;
-	color: darkslategrey;
+	color: #FF3B3F;
 }
 div.slave {
 	margin: auto;
@@ -121,5 +126,5 @@ h2.slave{
 	font-size: 48px;
 	font-family: "Helvetica Neue", "Arial", sans-serif;
 	font-weight: 300;
-	color: darkslategrey;
+	color: #FF3B3F;
 }
